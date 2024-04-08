@@ -1,0 +1,251 @@
+body{
+  background-color: #FFF9F2;
+  margin: 0%;
+  font-family: 'Segoe UI';
+}
+.cinza{
+  background-color: #474747;
+}
+.corrodape{
+  background-color: #FFF0DE;
+}
+.cor1{
+  background-color: aquamarine;
+}
+.limpar{
+  clear: both;
+}
+a{
+  color: #7B7B7B;
+}
+@font-face {
+  font-family: "Segoe";
+  src: local(Segoe), url(../fonte/Segoe\ UI.ttf);
+}
+.titulo{
+  font-family: "Segoe";
+  text-align: center;
+  font-size: 30pt;
+  color: #7B7B7B;
+}
+.pading{
+  padding-bottom: 52px;
+}
+.corfonte2{
+  color: #C4C4C4;
+}
+.corfonte{
+  color:#7B7B7B;
+}   
+.tamanho1{
+  height: 576px;
+  }
+.tamanho2{
+  height: 100px;
+}
+.nopading{
+  padding: 0px;
+}
+.imagem{
+  object-fit:cover;
+  width: 100%;
+  height: 100%;
+}
+p{
+  font-size: 15pt;
+}
+.relative{
+  position: relative;
+}
+.paragrafo{
+  /* position: absolute;
+  top: 149px;
+  left: 147px;
+  right: 147px; */
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+.paragrafo2{
+  position: absolute;
+  top: 0px;
+  left: 127px;
+}
+.valores{
+  top: 150px;
+}
+h4{
+  color: #C4C4C4;
+}
+.padingimg{
+  margin-left: 5px;
+}
+
+.tamanho3{
+  height: 199px;
+}
+.tamanho4{
+  height: 484px;
+  margin-top: 337px;
+}
+.rodapepading{
+  margin-top: 41px;
+  margin-bottom: 27px;
+  margin-left: 100px;
+}
+.rodapepading2{
+  margin-left: 100px;
+  font-size: 16px;
+}
+.rodapepading3{
+  margin-left: 94px;
+  font-size: 16px;
+  margin-bottom: 47px;
+}
+.rodapepading4{
+  font-size: 16px;
+  margin-bottom: 47px;
+}
+.bottomimg{
+  margin-bottom: 10px;
+}
+.tamfont2{
+  font-size: 15px;
+}
+.margintop{
+  margin-top: 25px;
+}
+.formulario{
+  height: 771px;
+  width: 550px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 45px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 300px;
+}
+@font-face {
+  font-family: "Segoe";
+  src: local(Segoe), url(../fonte/Segoe\ UI.ttf);
+}
+.tamcaixatexto{
+  width: 437px;
+  height: 33px;
+  border-radius: 5px;
+  border: solid #7D7272 1px;
+}
+.linha{
+  width: 481px;
+}
+.areaform{
+  width: 333px;
+  height: 69px;
+  margin: auto;
+}
+.tamcaixa{
+  float: right;
+  
+}
+.areaagendamento{
+  height: 332px;
+}
+.cor2{
+  background-color: #7D7272;
+}
+.padingform{
+  padding-top: 43px;
+}
+.areacalendar{
+  width: 224px;
+  height: 264px;
+  background-color: #F1F1FB;
+  border-radius: 20px;
+  padding: 20px;
+}
+.cabecariocalendario{
+  height: 46px;
+  position: relative;
+}
+.areacalendar p{
+  font-size: 15px;
+}
+.setacalendario{
+  width: 26px;
+  height: 20px;
+  background-color: #FE9022;
+  position: absolute;
+  top: 0px;
+  right: 55px;
+  border-radius: px;
+}
+.setacalendario2{
+  width: 26px;
+  height: 20px;
+  background-color: #FE9022;
+  position: absolute;
+  top: 0px;
+  right: 18px;
+  border-radius: 2px;
+}
+.tammes{
+  width: 86px;
+}
+.linhacalendario{
+  height: 39px;
+}
+.linhacalendario2{
+  height: 23px;
+}
+.espacamento{
+  margin-top: 9.5px;
+}
+.espacamentoletras{
+  letter-spacing: 10px;
+  margin: auto;
+}
+.espacamentopalavras{
+  word-spacing: 12.8px;
+  margin: auto;
+}
+.espacamentopalavras2{
+  word-spacing: 11.8px;
+  margin: auto;
+}
+.areahorario{
+  width: 98px;
+  height: 37px;
+  border-radius: 15px;
+  border: #474747 solid 1px;
+  margin-bottom: 39px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.areahorario2{
+  height: 264px;
+  width: 214px;
+  margin: auto;
+}
+.areahorario p{
+  font-size: 13px;
+  margin-top: 6px;
+}
+.botaoagendar{
+  width: 176px;
+  height: 53px;
+  background-color: #FF7300;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.botaoagendar p{
+  margin-top: 9px;
+  color: white;
+}
+.cor6{
+  background-color: #FFA65C;
+  color: white;
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grooming Pet Móvel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <div id="container" class="container p-0">
+        <header>
+            <nav id="row-menu" class="row navbar navbar-expand-md">
+                <div id="menu" class="container-fluid p-0">
+                    <div id="div-logo" class="ms-3 me-3">
+                        <a href="#">
+                            <img id="logo" src="img/Logo-PetMovel-Sem-Fundo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul id="pages-list" class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-center" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#services">SERVIÇOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#contact-form">CONTATO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#scheduling-cards">AGENDAMENTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#services">SOBRE NÓS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#services">ACESSE NOSSA LOJA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="banner-services-form1-section">
+                <div id="banner">
+                    <img id="banner-img" src="img/cachorro.png" alt="">
+                </div>
+
+                <div class="text-center">
+                    <a href="#scheduling-cards"><button id="scheduling-button-1" class="scheduling-button">AGENDE AGORA</button></a>  
+                </div>
+
+                <div id="services" class="text-center">
+                    <h2 id="services-title">NOSSOS SERVIÇOS</h2>
+                    
+                    <div id="div-cards" class="row d-flex justify-content-center w-100 m-auto">
+                        <div id="card-1" class="col-3 card-size d-inline-grid">
+                            <h3>BANHO E TOSA</h3>
+                            <p >A equipe Grooming Pet Móvel oferece os serviços de banho em domicilio para cães e gatos de todos os tamanho e raças. O nosso banho e tosa está equipado com chuveiro...</p>
+                            <a href="#plan-cards"><button class="card-button">SAIBA MAIS</button></a>
+                        </div>
+                        <div id="card-2" class="col-3 card-size d-inline-grid">
+                            <h3>CAUTERIZAÇÃO</h3>
+                            <p>Tratamento utilizado para a reposição de queratina dos pelos do animal. Deixando-o com pelos macios, sedosos e evitando o embaraçamento. A cauterização de pelos é um processo de excelente eficácia...</p>
+                            <a href="#plan-cards"><button class="card-button">SAIBA MAIS</button></a>
+                        </div>
+                        <div id="card-3" class="col-3 card-size d-inline-grid">
+                            <h3>HIDRATAÇÃO PROFUNDA</h3>
+                            <p>A hidratação deixa o pelo mais macio e brilhante. Também facilita no manuseio e escovação. Um mimo extra para quem voçe ama de paixão. O efeito da hidratação profunda de...</p>
+                            <a href="#plan-cards"><button class="card-button">SAIBA MAIS</button></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="contact-form" class="d-flex justify-content-center">
+                    <form>
+                        <h5>CONTATO</h5>
+                        <h2>Está com dúvidas sobre nossos serviços?</h2>
+                        <p>Nós retornaremos sua mensagem dentro de alguns minutos. Nosso horário de atendimento é de segunda a sexta-feira, das 8h30 às 18h. Fique de olho em seu e-mail!</p>
+                        <div class="row">
+                            <input type="text" class="form-control" placeholder="Nome completo" required>
+                            <input type="text" class="form-control" placeholder="E-mail" required>
+                            <textarea cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <button type="submit">ENVIAR</button>
+                    </form>
+                </div>
+            </section>
+            <section id="banner2-plans-scheduling2-section">
+                <div id="text-banner" class="row d-flex justify-content-between align-items-center w-100 m-0">
+                    <div id="text" class="col-sm-6">
+                        <h6>MUITO MAIS VANTAGENS PARA VOCÊ</h6>
+                        <h2>Economize contratando um plano mensal.</h2>
+                        <button class="col-sm-12">CONFIRA ABAIXO OS DESCONTOS</button>
+                    </div>
+
+                    <div id="img" class="col-sm-6 p-0">
+                        <img src="/img/cachorro2.png" alt="banner">
+                    </div>
+                </div>
+
+                <div id="plan-cards" class="row d-flex justify-content-center w-100 m-auto">
+                    <div id="card-1" class="col-3 card-size-2 d-inline-grid">
+                        <img src="/img/pet.png">
+                        <h3>START</h3>
+                        <h6>O mais econômico!</h6>
+                        <h2>R$195,00/mês</h2>
+                        <p></p>
+                        <button class="card-button">CONTRATAR</button>
+                    </div>
+                    <div id="card-2" class="col-3 card-size-2 d-inline-grid">
+                        <img src="/img/osso.png">
+                        <h3>ESSENCIAL</h3>
+                        <h6>Melhor custo-benefício!</h6>
+                        <h2>R$378,00/mês</h2>
+                        <p><s>R$420,00/mês</s></p>
+                        <button class="card-button">CONTRATAR</button>
+                    </div>
+                    <div id="card-3" class="col-3 card-size-2 d-inline-grid">
+                        <img src="/img/coleira.png">
+                        <h3>IDEAL</h3>
+                        <h6>Mais abrangente!</h6>
+                        <h2>R$459,00/mês</h2>
+                        <p><s>R$540,00/mês</s></p>
+                        <button class="card-button">CONTRATAR</button>
+                    </div>
+                </div>
+
+                <div id="scheduling-cards" class="row d-flex justify-content-center w-100 m-auto text-center" style="color: #707070;">
+                    <h2 id="services-title">AGENDAMENTO</h2>
+                    <p id="services-title">COMO FUNCIONA?</p>
+
+                    <div id="card-1" class="col-3 card-size-3 d-inline-grid">
+                        <img src="/img/circulo1.png">
+                        <h3>TUDO <span style="color: #D86200;">ONLINE</span>!</h3>
+                        <p>O agendamento é feito diretamente pelo site, de onde você estiver. É simples, prático e totalmente seguro.
+                        </p>
+                    </div>
+                    <div id="card-2" class="col-3 card-size-3 d-inline-grid">
+                        <img src="/img/circulo2.png">
+                        <h3>ACESSE TODAS AS <span style="color: #D86200;">INFORMAÇÕES</span></h3>
+                        <p>Após o agendamento você receberá um e-mail com a cópia do seu endereço e as instruções de acesso ao espaço do cliente. É através dele que você acompanha todas as informações do seu pet e os serviços da Grooming Pet Móvel.
+                        </p>
+                    </div>
+                    <div id="card-3" class="col-3 card-size-4 d-inline-grid">
+                        <img src="/img/circulo3.png">
+                        <h3>DÚVIDAS</h3>
+                        <p>
+                            <b>Entre em contato!</b>
+                            ou <a href="" style="color: #707070; text-decoration: underline;">clique aqui</a>
+                        </p>
+                        <button class="card-button-2-phone">NOSSO WHATSAPP</button>
+                        <button class="card-button-2-email">NOSSO EMAIL</button>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button id="scheduling-button-2" class="scheduling-button">AGENDE AGORA</button>  
+                </div>
+            </section>
+            <section id="aboutus-form2-footer">
+                <div class="row m-0">
+                    <div class="col-sm-12">
+                        <h3 id="title" class="text-center"> SOBRE NÓS</h3>
+                    </div>
+                    <div class="row p-0 m-0 w-100">
+                        <div id="text-aboutus" class="col-sm-6 d-flex align-items-center">
+                            <div>
+                                <h3>Quem Somos?</h3>
+                                <p> Conheça a Grooming Pet Móvel, um petshop móvel criado por Otto para superar desafios de localização. Com uma van adaptada, atendemos em Arujá, proporcionando qualidade, conveniência e profissionalismo. Buscamos expandir online para alcançar mais clientes. Junte-se a nós para cuidar do seu pet com carinho e dedicação.</p>
+                            </div>
+                        </div>
+                        <div id="image-aboutus" class="col-sm-6 p-0">
+                            <img id="img" src="img/van02.jpg" alt="Van-Grooming-Pet-Movel">
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-0 m-0 mt-5">
+                    <div class="col-sm-4 size-box d-flex">
+                        <img src="img/missãoicon.png" class="img-size">
+                        <div class="text-box">
+                            <h4>MISSÃO</h4>
+                            <p>Trazer mais conforto e acessibilidade aos nossos clientes.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 size-box d-flex">
+                        <img src="img/visãoicon.png" class="img-size">
+                        <div class="text-box">
+                            <h4>VISÃO</h4>
+                            <p>Tornar-se a principal referência em serviços de petshop móvel.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 size-box d-flex">
+                        <img src="img/valoresicon.png" class="img-size">
+                        <div class="text-box">
+                            <h4>VALORES</h4>
+                            <p>Nossa empresa se compromete com a qualidade, conveniência, transparência, confiança e inovação.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div id="footer" class="row m-0">
+                    <div class="col-sm-2">
+                        <p class="rodapepading">INSTITUCIONAL</p>
+                        <p class="rodapepading2"><a href="#home">HOME</a></p>
+                        <P class="rodapepading2"><a href="#sobrenos">SOBRE NÓS</a></P> 
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="rodapepading">SUPORTE</p>
+                        <p class="rodapepading2"><a href="#contato">CONTATO</a></p>   
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="rodapepading">POLÍTICAS</p>
+                        <p class="rodapepading2"><a href="#politicasdeprivacidade">POLÍTICAS DE PRIVACIDADE</a></p> 
+                        <P class="rodapepading2"><a href="#termosdeuso">TERMOS DE USO</a></P>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="rodapepading">SIGA O GROOMING PET MÓVEL NAS REDES SOCIAIS</p>
+                         <a target="_blank" href="https://www.instagram.com/"><img class="rodapepading3" src="img/redes.png" alt="instagram"></a>
+                         <a target="_blank" href="https://m.facebook.com/"><img class="rodapepading4" src="img/facebook.png" alt="facebook"></a>
+                        <P class="rodapepading2">BAIXE O APP</P>
+                        <a target="_blank" href="https://play.google.com/store/games"><img class="rodapepading2 bottomimg" src="img/app google play.png" alt="Google play"></a><br>
+                        <a target="_blank" href="https://www.apple.com/app-store/"><img class="rodapepading2" src="img/App store.png" alt="App store"> </a>
+                    </div>
+                </div>   
+            </footer>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="scripts/dist/script.js"></script>
+</body>
+
+</html>

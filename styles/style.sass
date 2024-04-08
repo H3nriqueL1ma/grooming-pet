@@ -1,0 +1,330 @@
+@mixin designbutton
+    border: 2px solid #D86200
+    color: white
+    background-color: #D86200
+    border-radius: 4px
+    font-weight: 500
+    transition: 0.2s
+
+$darkOrange: #A94D00
+$orange: #D86200
+$lightOrange: #FFD4B1
+$cream: #FFF9F2
+$gray: #707070  
+    
+    
+body
+    background-color: $cream
+
+    a   
+        color: white
+        text-decoration: none
+
+#container
+    max-width: 1366px
+    font-family: "Segoe UI", Arial, sans-serif
+
+header
+    #row-menu
+        display: inline
+
+        #menu
+            position: fixed
+            padding: 10px 0
+            background-color: $orange
+            max-width: 1366px
+            box-shadow: 0 5px 200px rgba(0, 0, 0, 0.7)
+            transition: 0.4s
+
+            #div-logo
+                padding: 8px
+
+                #logo
+                    width: 100px
+                    transition: 0.4s
+                    
+            #navbarNav
+                #pages-list
+                    list-style: none
+
+                    li
+                        padding: 28px 40px 
+                        transition: all 0.2s !important
+                        cursor: pointer
+
+                        &:hover
+                            background-color: $darkOrange  
+
+                        a
+                            color: white
+
+main
+    margin-top: 50px
+
+    #banner-services-form1-section
+        #banner
+            #banner-img
+                width: 100%
+
+        #services
+            margin-top: 15%
+            color: $gray
+
+            #services-title
+                font-weight: 600
+
+                &:after
+                    display: inline-block
+                    background: url("../img/serviços-logo.png") center center no-repeat
+                    content: url("../img/serviços-logo-semconteudo.png")
+                    width: 38px
+                    height: 38px
+                    margin-left: 10px
+
+            #div-cards
+                margin-top: 3%
+
+        #contact-form
+            margin-top: 10%
+
+            form
+                width: 500px
+                padding: 50px 50px
+                margin: 0 30px
+                background-color: $orange
+                border-radius: 20px
+                color: white
+
+                div
+                    input, textarea
+                        border-radius: 18px
+                        border: none
+                        background-color: $lightOrange
+                        margin: 10px 0
+
+                    input
+                        padding: 5px 20px
+
+                    textarea
+                        padding: 15px 20px
+
+                button
+                    background-color: $darkOrange
+                    color: white
+                    border: 2px solid $darkOrange
+                    border-radius: 20px
+                    padding: 5px 0
+                    width: 150px
+                    margin-top: 5px
+                    font-weight: 500
+                    transition: 0.2s
+
+                    &:hover
+                        transform: scale(1.01)
+                        background-color: $cream
+                        color: $orange
+                        box-shadow: 2px 2px 0px $darkOrange
+
+    #banner2-plans-scheduling2-section
+        #text-banner
+            margin-top: 20% !important
+
+            #text
+                max-width: 400px
+                margin: 0 100px
+
+                h6, h2
+                    color: $gray
+                    max-width: 350px
+
+                button
+                    border: 2px solid $orange
+                    background-color: $orange
+                    border-radius: 4px
+                    font-weight: 500
+                    color: white
+                    padding: 10px 0
+                    transition: 0.2s
+
+                    &:hover
+                        background-color: $cream
+                        box-shadow: 2px 2px 0px $orange
+                        color: $orange
+                        transform: scale(1.01)
+
+            #img
+                img
+                    width: 100%
+
+        #plan-cards, #scheduling-cards
+            margin-top: 15% !important
+
+    #aboutus-form2-footer
+        #title
+            margin-top: 20%
+            margin-bottom: 50px
+            font-size: 30pt
+            color: $gray
+
+        #text-aboutus
+            height: 500px
+            padding: 0 80px
+            background-color: #474747
+            color: #C4C4C4
+
+        #image-aboutus
+            height: 500px
+
+            #img
+                object-fit: cover
+                width: 100%
+                height: 100%
+
+    #footer
+        background-color: #FFF0DE
+
+.scheduling-button
+    @include designbutton
+    margin-top: 5%
+    padding: 13px
+    width: 400px
+    font-size: 22px
+
+    &:before
+        background: url("../img/logo512.png") center center no-repeat
+        content: url("../img/logo512-semconteudo.png")
+        display: inline-block
+        width: 40px
+        height: 40px
+        transition: 0.2s
+
+    &:hover
+        color: $orange
+        background-color: $cream
+        box-shadow: 2px 2px 0px $orange
+        transform: scale(1.01)
+
+        &:before
+            filter: brightness(0) saturate(100%) invert(64%) sepia(76%) saturate(6171%) hue-rotate(12deg) brightness(94%) contrast(105%)
+            
+.card-size
+    width: 300px
+    padding: 40px 30px
+    background-color: white
+    border-radius: 10px
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+    margin: 20px 30px
+    grid-template-rows: 50px 240px 38px
+    justify-items: center
+    align-items: center
+    text-align: center
+    color: $gray
+
+.card-size-2
+    width: 300px
+    padding: 40px 30px
+    background-color: white
+    border-radius: 10px
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+    margin: 20px 30px
+    grid-template-rows: 100px 70px 10px 70px 40px 70px
+    justify-items: center
+    align-items: center
+    text-align: center
+    color: $gray
+
+    img
+        width: 100px
+
+    button
+        width: 85%
+        padding: 7px 0
+
+    h6
+        color: $orange
+
+    p
+        font-size: 20px
+
+.card-size-3
+    width: 300px
+    padding: 40px 30px
+    background-color: white
+    border-radius: 10px
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+    margin: 20px 30px
+    grid-template-rows: 100px 100px 200px
+    justify-items: center
+    align-items: center
+    text-align: center
+    color: $gray
+
+    img
+        width: 100px
+
+.card-size-4
+    width: 300px
+    padding: 40px 30px
+    background-color: white
+    border-radius: 10px
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+    margin: 20px 30px
+    grid-template-rows: 100px 100px 50px 60px 60px
+    justify-items: center
+    align-items: center
+    text-align: center
+    color: $gray
+
+    img
+        width: 100px
+
+.card-button
+    @include designbutton
+    width: 120px
+    padding: 5px 0
+    
+    &:hover
+        color: $orange
+        background-color: $cream
+        box-shadow: 2px 2px 0px $orange
+        transform: scale(1.01)
+
+.card-button-2-phone
+    @include designbutton
+    transition: all 0.3s linear !important
+    width: 200px
+    padding: 5px 0
+    
+    &:hover
+        color: $orange
+        background-color: $cream
+        box-shadow: 2px 2px 0px $orange
+        transform: scale(1.01)
+
+.card-button-2-email
+    @include designbutton
+    transition: all 0.3s linear !important
+    width: 200px
+    padding: 5px 0
+    height: 40px
+    font-size: 12px
+
+    &:hover
+        color: $orange
+        background-color: $cream
+        box-shadow: 2px 2px 0px $orange
+        transform: scale(1.01)
+
+.size-box
+    height: 199px
+    justify-content: center
+
+.img-size
+    width: 80px
+    height: 80px 
+
+.text-box
+    text-align: center
+    color: $gray
+    max-width: 260px
+    margin-left: 20px
