@@ -9,21 +9,21 @@
     <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
-    <div id="container" class="container p-0">
+    <div id="container" class="container p-0 m-0">
         <header>
             <nav id="row-menu" class="row navbar navbar-expand-md">
-                <div id="menu" class="container-fluid p-0">
+                <div id="menu" class="container-fluid p-0 d-flex justify-content-evenly">
                     <div id="div-logo" class="ms-3 me-3">
                         <a href="#">
                             <img id="logo" src="img/Logo-PetMovel-Sem-Fundo.png" alt="logo">
                         </a>
                     </div>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button id="button-navbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                         <ul id="pages-list" class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link active text-center" aria-current="page" href="#">HOME</a>
@@ -38,7 +38,7 @@
                                 <a class="nav-link text-center" href="#scheduling-cards">AGENDAMENTO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-center" href="#services">SOBRE NÓS</a>
+                                <a class="nav-link text-center" href="#aboutus">SOBRE NÓS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-center" href="#services">ACESSE NOSSA LOJA</a>
@@ -51,7 +51,16 @@
         <main>
             <section id="banner-services-form1-section">
                 <div id="banner">
-                    <img id="banner-img" src="img/cachorro.png" alt="">
+                    <div id="banner-img" class="d-flex align-items-center justify-content-start">
+                        <div id="text-content">
+                            <div class="me-5 ms-5">
+                                <h1 id="title">COM AMOR E CARINHO, MEU BICHINHO SEMPRE LIMPINHO!</h1>
+                                <h1>Serviços PetShop</h1>
+                                <h5>Entre em contato para dúvidas e agendamento:</h5>
+                                <button class="d-flex align-items-center"><div>(11) 91122-4309</div></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="text-center">
@@ -99,10 +108,10 @@
                     <div id="text" class="col-sm-6">
                         <h6>MUITO MAIS VANTAGENS PARA VOCÊ</h6>
                         <h2>Economize contratando um plano mensal.</h2>
-                        <button class="col-sm-12">CONFIRA ABAIXO OS DESCONTOS</button>
+                        <a href="#plan-cards"><button class="col-sm-12">CONFIRA ABAIXO OS DESCONTOS</button></a>
                     </div>
 
-                    <div id="img" class="col-sm-6 p-0">
+                    <div id="img" class="col-md-6 p-0">
                         <img src="/img/cachorro2.png" alt="banner">
                     </div>
                 </div>
@@ -155,7 +164,7 @@
                         <h3>DÚVIDAS</h3>
                         <p>
                             <b>Entre em contato!</b>
-                            ou <a href="" style="color: #707070; text-decoration: underline;">clique aqui</a>
+                            ou <a href="#contact-form" style="color: #707070; text-decoration: underline;">clique aqui</a>
                         </p>
                         <button class="card-button-2-phone">NOSSO WHATSAPP</button>
                         <button class="card-button-2-email">NOSSO EMAIL</button>
@@ -167,38 +176,38 @@
                 </div>
             </section>
             <section id="aboutus-form2-footer">
-                <div class="row m-0">
+                <div id="aboutus" class="row m-0">
                     <div class="col-sm-12">
                         <h3 id="title" class="text-center"> SOBRE NÓS</h3>
                     </div>
                     <div class="row p-0 m-0 w-100">
-                        <div id="text-aboutus" class="col-sm-6 d-flex align-items-center">
+                        <div id="text-aboutus" class="col-lg-6 d-flex align-items-center">
                             <div>
                                 <h3>Quem Somos?</h3>
                                 <p> Conheça a Grooming Pet Móvel, um petshop móvel criado por Otto para superar desafios de localização. Com uma van adaptada, atendemos em Arujá, proporcionando qualidade, conveniência e profissionalismo. Buscamos expandir online para alcançar mais clientes. Junte-se a nós para cuidar do seu pet com carinho e dedicação.</p>
                             </div>
                         </div>
-                        <div id="image-aboutus" class="col-sm-6 p-0">
+                        <div id="image-aboutus" class="col-lg-6 p-0">
                             <img id="img" src="img/van02.jpg" alt="Van-Grooming-Pet-Movel">
                         </div>
                     </div>
                 </div>
-                <div class="row p-0 m-0 mt-5">
-                    <div class="col-sm-4 size-box d-flex">
+                <div class="row p-0 m-0 mt-5 d-flex justify-content-evenly">
+                    <div class="col-lg-4 size-box d-flex">
                         <img src="img/missãoicon.png" class="img-size">
                         <div class="text-box">
                             <h4>MISSÃO</h4>
                             <p>Trazer mais conforto e acessibilidade aos nossos clientes.</p>
                         </div>
                     </div>
-                    <div class="col-sm-4 size-box d-flex">
+                    <div class="col-lg-4 size-box d-flex">
                         <img src="img/visãoicon.png" class="img-size">
                         <div class="text-box">
                             <h4>VISÃO</h4>
                             <p>Tornar-se a principal referência em serviços de petshop móvel.</p>
                         </div>
                     </div>
-                    <div class="col-sm-4 size-box d-flex">
+                    <div class="col-lg-4 size-box d-flex">
                         <img src="img/valoresicon.png" class="img-size">
                         <div class="text-box">
                             <h4>VALORES</h4>
@@ -209,28 +218,28 @@
             </section>
 
             <footer>
-                <div id="footer" class="row m-0">
+                <div id="footer" class="row m-0 d-flex align-items-start p-5">
                     <div class="col-sm-2">
-                        <p class="rodapepading">INSTITUCIONAL</p>
-                        <p class="rodapepading2"><a href="#home">HOME</a></p>
-                        <P class="rodapepading2"><a href="#sobrenos">SOBRE NÓS</a></P> 
+                        <h5>INSTITUCIONAL</h5>
+                        <p><a href="#">HOME</a></p>
+                        <p><a href="#aboutus">SOBRE NÓS</a></p> 
                     </div>
                     <div class="col-sm-2">
-                        <p class="rodapepading">SUPORTE</p>
-                        <p class="rodapepading2"><a href="#contato">CONTATO</a></p>   
+                        <h5>SUPORTE</h5>
+                        <p><a href="#contact-form">CONTATO</a></p>   
                     </div>
                     <div class="col-sm-2">
-                        <p class="rodapepading">POLÍTICAS</p>
-                        <p class="rodapepading2"><a href="#politicasdeprivacidade">POLÍTICAS DE PRIVACIDADE</a></p> 
-                        <P class="rodapepading2"><a href="#termosdeuso">TERMOS DE USO</a></P>
+                        <h5>POLÍTICAS</h5>
+                        <p><a href="#politicasdeprivacidade">POLÍTICAS DE PRIVACIDADE</a></p> 
+                        <p><a href="#termosdeuso">TERMOS DE USO</a></p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="rodapepading">SIGA O GROOMING PET MÓVEL NAS REDES SOCIAIS</p>
-                         <a target="_blank" href="https://www.instagram.com/"><img class="rodapepading3" src="img/redes.png" alt="instagram"></a>
-                         <a target="_blank" href="https://m.facebook.com/"><img class="rodapepading4" src="img/facebook.png" alt="facebook"></a>
-                        <P class="rodapepading2">BAIXE O APP</P>
-                        <a target="_blank" href="https://play.google.com/store/games"><img class="rodapepading2 bottomimg" src="img/app google play.png" alt="Google play"></a><br>
-                        <a target="_blank" href="https://www.apple.com/app-store/"><img class="rodapepading2" src="img/App store.png" alt="App store"> </a>
+                        <h5>SIGA O GROOMING PET MÓVEL NAS REDES SOCIAIS!</h5>
+                        <a target="_blank" href="https://www.instagram.com/"><img src="img/redes.png" alt="instagram"></a>
+                        <a target="_blank" href="https://m.facebook.com/"><img src="img/facebook.png" alt="facebook"></a>
+                        <p style="font-weight: 600; margin-top: 30px;">BAIXE O APP</p>
+                        <a target="_blank" href="https://play.google.com/store/games"><img bottomimg" src="img/app google play.png" alt="Google play"></a><br>
+                        <a target="_blank" href="https://www.apple.com/app-store/"><img" src="img/App store.png" alt="App store"></a>
                     </div>
                 </div>   
             </footer>
