@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="text-center">
-                    <button id="scheduling-button-2" class="scheduling-button">AGENDE AGORA</button>  
+                    <a href="#scheduling-form"><button id="scheduling-button-2" class="scheduling-button">AGENDE AGORA</button> </a> 
                 </div>
             </section>
             <section id="aboutus-form2-footer">
@@ -215,25 +215,81 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="d-flex justify-content-center">
+                    <form id="scheduling-form" action="#" method="post" class="mb-5">
+                        <div class="d-flex justify-content-evenly align-items-center mb-4">
+                            <img src="img/Logo-PetMovel-Sem-Fundo.png">
+                            <h2>Agendamento</h2>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <h5>CONTATO</h5>
+                            <div class="d-flex justify-content-evenly mb-3">
+                                <div>
+                                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                                </div>
+                                <div>
+                                    <input type="text" name="surname" id="surname" placeholder="Sobrenome" required>
+                                </div>
+                            </div>
+                            <div class="me-1 ms-1">
+                                <input type="text" name="email" id="email" placeholder="E-mail" required>
+                                <label for="email">example@example.com</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-evenly mb-4">
+                            <div>
+                                <h6>AGENDAMENTO</h6>
+                                <div>
+                                    <input type="date" name="datetime" id="datetime" required>
+                                </div>
+                            </div>
+                            <div>
+                                <h6>HORÁRIOS</h6>
+                                <div>
+                                    <select name="time" id="time" required></select>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <label for="services">Qual serviços você vai utilizar?</label>
+                            <select name="services" id="services">
+                                <option value="tosa_maquina">Tosa (Máquina)</option>
+                                <option value="tosa_tesoura">Tosa (Tesoura)</option>
+                                <option value="banho">Banho</option>
+                                <option value="escova_pelagem">Escova na pelagem</option>
+                                <option value="limpeza_ouvidos">Limpeza dos ouvidos</option>
+                                <option value="corte_unhas">Corte de unhas</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit">AGENDAR</button>
+                        </div>
+                    </form>
+                </div>
             </section>
 
             <footer>
                 <div id="footer" class="row m-0 d-flex align-items-start p-5">
-                    <div class="col-sm-2">
-                        <h5>INSTITUCIONAL</h5>
+                    <div class="col-lg-2 div-size">
+                        <h6>INSTITUCIONAL</h6>
                         <p><a href="#">HOME</a></p>
                         <p><a href="#aboutus">SOBRE NÓS</a></p> 
                     </div>
-                    <div class="col-sm-2">
-                        <h5>SUPORTE</h5>
+                    <div class="col-lg-2 div-size">
+                        <h6>SUPORTE</h6>
                         <p><a href="#contact-form">CONTATO</a></p>   
                     </div>
-                    <div class="col-sm-2">
-                        <h5>POLÍTICAS</h5>
+                    <div class="col-lg-2 div-size">
+                        <h6>POLÍTICAS</h6>
                         <p><a href="#politicasdeprivacidade">POLÍTICAS DE PRIVACIDADE</a></p> 
                         <p><a href="#termosdeuso">TERMOS DE USO</a></p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-lg-6 div-size">
                         <h5>SIGA O GROOMING PET MÓVEL NAS REDES SOCIAIS!</h5>
                         <a target="_blank" href="https://www.instagram.com/"><img src="img/redes.png" alt="instagram"></a>
                         <a target="_blank" href="https://m.facebook.com/"><img src="img/facebook.png" alt="facebook"></a>

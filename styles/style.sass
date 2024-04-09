@@ -89,6 +89,7 @@ main
 
                     button
                         @include designbutton
+                        border-radius: 20px
 
                         &:hover
                             color: $orange
@@ -221,6 +222,33 @@ main
                 object-fit: cover
                 width: 100%
                 height: 100%
+
+        #scheduling-form
+            background-color: white
+            padding: 30px
+            color: $gray
+            border-radius: 20px
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+
+            img
+                width: 80px
+
+            button
+                background-color: $darkOrange
+                color: white
+                border: 2px solid $darkOrange
+                border-radius: 20px
+                padding: 5px 0
+                width: 150px
+                margin-top: 5px
+                font-weight: 500
+                transition: 0.2s
+
+                &:hover
+                    transform: scale(1.01)
+                    background-color: $cream
+                    color: $orange
+                    box-shadow: 2px 2px 0px $darkOrange
 
     #footer
         background-color: #FFF0DE
@@ -382,3 +410,6 @@ main
 
 .title-categories
     margin: 30px
+
+.div-size
+    margin: 20px 0
